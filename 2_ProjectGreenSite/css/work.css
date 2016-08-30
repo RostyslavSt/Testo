@@ -143,17 +143,17 @@ html {
 	background-color: #ecf0f1;
 	text-align: center;
 }
-
 .content-pictures {
-	text-align: center;
+	
 	width: 650px;
 	padding: 73px 0 65px;
 }
-.content-pictures .item {
+.content-pictures .item {	
 	display: inline-block;
-	margin: 0 10px 0 10px;
+	margin: 10px;
 }
-.add-BG {
-	background-image: url("backgr.png");
+.content-pictures .item:last-child {
+	margin-left: 
 }
+
 /*content>*/
