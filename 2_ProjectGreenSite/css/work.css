@@ -151,14 +151,22 @@ html {
 .content-pictures .item {	
 	display: inline-block;
 	margin: 10px;
+	position: relative;
 }
-.content-pictures .descripion {
+.content-pictures .description {
 	position: absolute;
-	background-image: url("../img/hover.png");
+	top: 1500px;
 }
 .content-pictures .item:last-child {
 	background-image: url("../img/backgr.png");
 	text-align: left;
+}
+.content-pictures .item:hover .description {
+	/*top: 0px;*/
+	/*left: 0;*/
+    top: 50%;
+    /*width: 100%;*/
+    /*text-align: center;*/
 }
 
 /*content>*/
