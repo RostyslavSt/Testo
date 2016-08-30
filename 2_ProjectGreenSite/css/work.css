@@ -144,16 +144,21 @@ html {
 	text-align: center;
 }
 .content-pictures {
-	
 	width: 650px;
 	padding: 73px 0 65px;
+	margin: 0;
 }
 .content-pictures .item {	
 	display: inline-block;
 	margin: 10px;
 }
+.content-pictures .descripion {
+	position: absolute;
+	background-image: url("../img/hover.png");
+}
 .content-pictures .item:last-child {
-	margin-left: 
+	background-image: url("../img/backgr.png");
+	text-align: left;
 }
 
 /*content>*/
