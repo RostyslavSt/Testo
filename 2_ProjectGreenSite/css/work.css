@@ -141,12 +141,12 @@ html {
 /*<content*/
 .content {
 	background-color: #ecf0f1;
-	text-align: center;
+	/*text-align: center;*/
 }
 .content-pictures {
 	width: 650px;
 	padding: 73px 0 65px;
-	margin: 0;
+	margin: auto;
 }
 .content-pictures .item {	
 	display: inline-block;
@@ -155,18 +155,15 @@ html {
 }
 .content-pictures .description {
 	position: absolute;
-	top: 1500px;
+	display: none;
 }
 .content-pictures .item:last-child {
-	background-image: url("../img/backgr.png");
+	/*background-image: url("../img/backgr.png");*/
 	text-align: left;
 }
 .content-pictures .item:hover .description {
-	/*top: 0px;*/
-	/*left: 0;*/
-    top: 50%;
-    /*width: 100%;*/
-    /*text-align: center;*/
+	display: block;
+	z-index: +1;
 }
 
 /*content>*/

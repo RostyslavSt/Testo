@@ -78,6 +78,13 @@ header {
 	border-bottom: 4px solid #c86a40;
 	border-radius: 3px;
 }
+.burger {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-size: 34px;
+	color: #fff;
+}
 /*header>*/
 
 /*<content*/
@@ -115,7 +122,17 @@ header {
 .services-description {
 	color: #ffffff;
 	font-family: 'Titillium Web';
-	font-weight: 400;
+	padding-bottom: 130px;
+	
+}
+.services-description h6 {
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.services-description-text {
+	font-size: 16px;
 }
 
 .beautiful {
@@ -163,11 +180,63 @@ header {
 	margin: 0 6px;
 	
 }
-.burger {
-	border: none;
-	outline: none;
-	background-color: transparent;
-	font-size: 34px;
-	color: #fff;
+.skills {
+	background-color: #ffffff;
+	padding: 112px 0 120px;
+	font-family: 'Titillium Web';
 }
 
+.skills h2 {
+	font-size: 40px;
+	font-weight: 600px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.skills-text {
+	text-align: center;
+	font-size: 18px;
+	max-width: 600px;
+	margin: auto;
+	padding-bottom: 85px;
+}
+
+.portfolio {
+	padding: 119px 0 108px;
+	background-color: #ffdd99;
+}
+.portfolio h2 {
+	color: #393939;
+	font-size: 40px;
+	font-weight: 600px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portfolio-text {
+	max-width: 580px;
+	color: #393939;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+.portfolio-category {
+	color: #393939;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 390px;
+}
+.portfolio-category .item {
+	align-items: center;
+	display: inline-block;
+	list-style: none;
+	width: 84px;
+	height: 38px;
+	border-radius: 3px;
+	background-color: #ebc985;
+	margin: auto;
+}
+.portfolio-button {
+
+}
