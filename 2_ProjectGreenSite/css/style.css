@@ -13,7 +13,7 @@ html {
 	width: 100%;
 }
 
-/*header*/
+/*--------<HEADER--------*/
 .wrapper{
 	position: relative;
 	width: 940px;
@@ -83,59 +83,17 @@ html {
 	padding: 16px 67px;
 	border-radius: 4px;
 }
-.blok{
-	height: 88px;
-}
-/*footer*/
-.footer {
-	position: relative;
-	margin: -88px auto 0;
-	width: 940px;
-	height: 88px;
-	background-color: #444444;
-}
-.block-soc-network {
-	float: left;
-	line-height: 88px;
-}
-.block-soc-network ul {
-	list-style: none;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 60px;
-	margin: 0;
-}
-.block-soc-network a {
-	text-decoration: none;
-	color: #b1b1b1;
-	font-size: 8.64px;
-	font-family: "LatoLight", sans-serif;
 
-}
-.block-soc-network li {
-	padding-right: 13px;
-	display: inline-block;
-}
-.footer .soc {
-	color: #e4e4e4;
-	font-size: 16px;
-	padding-right: 13px;
-}
 
-.block-copyright {
-	font-size: 12px;
-	color: #bdbdbd;
-	float: right;
-	line-height: 88px;
-	font-family: "LatoLight";
-	/*padding-top: 41px;*/
-	padding-right: 59px;
-}
-.block-soc-network i:first-child {
-	margin-top: -2px;
-}
+/*-----HEADER------>*/
 
-/*content*/
+
+/*<----CONTENT-----*/
+
+
+
+/*---<css for "INDEX" page--*/
+
 .content {
 	background-color: #ecf0f1;
 }
@@ -210,8 +168,9 @@ html {
 .content-logo li:first-child {
 	padding-left: 20px;
 }
+/*---css for "INDEX" page>--*/
 
-/*ABOUT PAGE*/
+/*---<css for "ABOUT" page*/
 .header h1 {
 	padding: 136px 0 68px;
 	color: #f9f9f9;
@@ -220,7 +179,6 @@ html {
 	font-family: "LatoRegular";
 }
 .container {
-	/*padding-top: 87px;*/
 	text-align: center;
 	font-family: "LatoRegular";
 	font-weight: bold;
@@ -289,7 +247,59 @@ html {
 	padding: 9px 39px;
 	border-radius: 4px;
 }
-/*CONTACTS PAGE*/
+/*---css for "ABOUT" page>*/
+
+/*<---css for work*/
+.work-content {
+	background-color: #ecf0f1;
+}
+.work-content-pictures {
+	width: 650px;
+	padding: 73px 0 65px;
+	margin: auto;
+}
+.work-content-pictures .item {	
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+}
+.work-content-pictures .item:last-child {
+	text-align: left;
+}
+.work-description {
+	position: absolute;
+	display: none;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 153px;
+	background-color: rgba(149, 165, 166,.9);
+	color: #fff;
+	text-align: center;
+	font-family: "LatoRegular";
+}
+.work-content-pictures .item:hover .work-description {
+	display: block;
+}
+
+.work-description .text1 {
+	font-size: 19.86px;
+	padding-top: 47px;
+
+}
+.work-description .text2 {
+	font-size: 9.93px;
+}
+.line {
+	width: 70px;
+	height: 1px;
+	background-color: #fff;
+	margin: 15px auto;
+}
+
+/*---css for "WORK" page>*/
+
+/*---<css for "CONTACT PAGE" page*/
 .map {
 	text-align: center;
 	padding: 67px 0 61px;
@@ -316,10 +326,6 @@ html {
 .form-and-contact{
 	overflow: hidden;
 }
-.form-block {
-	/*float: left;*/
-}
-/*43233!!!!!!!!!!!!!!!!!!1*/
 form {
 	float: left;
 	font-family: "LatoLight";
@@ -372,3 +378,57 @@ input[type="submit"] {
 	color: #717272;
 	font-size: 14px;
 }
+/*---css for "CONTACT PAGE" page>*/
+
+/*<----FOOTER-----*/
+
+.footer-help-block{
+	height: 88px;
+}
+.footer {
+	position: relative;
+	margin: -88px auto 0;
+	width: 940px;
+	height: 88px;
+	background-color: #444444;
+}
+.block-soc-network {
+	float: left;
+	line-height: 88px;
+}
+.block-soc-network ul {
+	list-style: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 60px;
+	margin: 0;
+}
+.block-soc-network a {
+	text-decoration: none;
+	color: #b1b1b1;
+	font-size: 8.64px;
+	font-family: "LatoLight", sans-serif;
+
+}
+.block-soc-network li {
+	padding-right: 13px;
+	display: inline-block;
+}
+.footer .soc {
+	color: #e4e4e4;
+	font-size: 16px;
+	padding-right: 13px;
+}
+
+.block-copyright {
+	font-size: 12px;
+	color: #bdbdbd;
+	float: right;
+	line-height: 88px;
+	font-family: "LatoLight";
+	padding-right: 59px;
+}
+.block-soc-network i:first-child {
+	margin-top: -2px;
+}
+/*----FOOTER----->*/

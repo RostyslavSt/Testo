@@ -201,10 +201,24 @@ header {
 	margin: auto;
 	padding-bottom: 85px;
 }
+.skills h3 {
+	color: #3c4761;
+	font-size: 24px;
+	font-family: 'Titillium Web';
+	font-weight: 700;
+	margin-top: 28px;
+}
+.text-icon {
+	text-transform: uppercase;
+}
 /*< section "portfolio" */
 .portfolio {
 	padding: 119px 0 108px;
 	background-color: #ffdd99;
+}
+.portfolio img {
+	max-width: 541px;
+	width: 100%;
 }
 .portfolio h2 {
 	color: #393939;
@@ -227,22 +241,16 @@ header {
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
-	max-width: 396px;
-	margin: auto;
+	padding: 43px 0 57px;
+}
 
-	/*display: flex-inline;*/
-}
-.portfolio-category ul {
-	padding-left: 0px;
-}
 .portfolio-category .item {
 	display: inline-block;
 	list-style: none;
-	width: 84px;
-	height: 38px;
+	padding: 11px 23px;
 	border-radius: 3px;
 	background-color: #ebc985;
-	margin: auto;
+	margin: 0 5px 0;
 	text-align: center;
 }
 .portfolio-category .item:hover {
@@ -257,9 +265,7 @@ header {
 
 }
 .portfolio-button {
-	margin: auto;
-	width: 295px;
-	height: 73px;
+	padding: 25px 55px;
 	background-color: #17c2a4;
 	border-radius: 5px;
 	color: #ffffff;
@@ -269,17 +275,18 @@ header {
 	border: none;
 	border-bottom: 5px solid #14a58c;
 	text-align: center;
+	outline: none;
 }
 /*< section "about-us"*/
 .about-us {
-	padding: 114px 0 130px;
+	padding-top: 114px;
 	background-color: #d74680;
 }
 .about-us h2 {
 	color: #fff;
 	font-size: 40px;
 	font-family: 'Titillium Web';
-	font-weight: 600px;
+	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -290,20 +297,39 @@ header {
 	font-size: 18px;
 	margin-bottom: 64px;
 }
+.block {
+	/*position: relative;*/
+	/*display: flex;
+	/*justify-content: flex-start;*/
+	/*overflow: hidden;*/
+	/*display: inline-block;*/
+	text-align: left;
+}
+.img-about {
+	float: left;
+	/*text-align: left;*/
+	/*display: inline-block;*/
+	margin-bottom: 60px;
+	margin-right: 45px;
+}
 .about-us-info {
+	/*display: inline-block;*/
 	text-align: left;
 	font-family: 'Titillium Web';
 	color: #fff;
+	margin-bottom: 80px;
+	/*float: left;*/
 }
 .about-us-description {
 	color: #fff;
 	font-size: 21px;
 	font-style: italic;
+	padding-right: 116px;
 }
 .client {
 	font-size: 24px;
 	text-transform: uppercase;
-	font-weight: 600px;
+	font-weight: 600;
 	margin: 23px 0 0;
 }
 .client-position {
@@ -320,7 +346,7 @@ header {
 	color: #fff;
 	font-size: 40px;
 	font-family: 'Titillium Web';
-	font-weight: 600px;
+	font-weight: 600;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -334,12 +360,10 @@ header {
 .contacts form {
 
 }
+
 .contacts-button {
 	text-align: center;
 	margin-top: 90px;
-
-}
-.contacts-button a {
 	text-decoration: none;
 	padding: 22px 85px;
 	background-color: #30bae7;
@@ -348,24 +372,37 @@ header {
 	font-family: 'Titillium Web';
 	font-weight: 600px;
 	text-transform: uppercase;
+	border: none;
 	border-radius: 4px;
 	border-bottom: 4px solid #299ec5;
 	
 }
 form .form-content {
-	max-width: 860px;
+	max-width: 864px;
+	width: 100%;
+	/*text-align: center;*/
+	margin: 0 auto;
 }
 form input {
-	/*max-width: 465px;*/
-	height: 49px;
+	max-width: 392px;
+	width: 100%;
+	padding: 20px 0 20px 24px;
 	background-color: #273a71;
 	border-radius: 4px;
 	border: none;
 	color: #fff;
+	margin-bottom: 27px;
 }
-form input:last-child {
-	display: inline-block;
-	float: left;
+input[type="e-mail"] {
+	/*margin-left: 30px;*/
+	float: right;
+}
+
+form textarea {
+	/*max-width: 864px;*/
+	width: 100%;
+	background-color: #273a71;
+	border: none;
 }
 /* section "contacts" >*/
 /*content> */
@@ -373,9 +410,12 @@ form input:last-child {
 /*<footer --*/
 footer {
 	background-color: #344b8e;
+	padding: 42px 0 42px;
 }
 footer ul {
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 footer li {
 	display: inline-block;
@@ -384,6 +424,8 @@ footer li {
 footer li:last-child {
 	margin-right: 0;
 }
+
+
 
 footer a {
 	font-size: 24px;

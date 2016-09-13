@@ -1,0 +1,44 @@
+﻿body
+	text-align: center
+	h1
+		font-size: 30px
+.tools
+	text-align: left
+	&-description
+		text-align: center
+	&-item
+		color: red
+	div , p
+		background-color: green
+		padding: 
+			left: 10px
+			right: 10px
+$red_color: #567854
+$green_color: #095432
+$rr_text: "robotoregular", sans-serif
+.selector
+	color: $red_color
+	font-family: $rr_text
+
+%button
+	padding: 10px 20px
+	border: 2px solid #000
+	font-family: $rr_text
+
+.btm_1
+	@extend %button
+	background-color: red
+.btn_2
+	background-color: green
+	@extend %button
+.btn_3
+	background-color: green
+	@extend %button
+
+@for $i from 1 to 11 
+	.item-#{$i}
+		background-color: #FFF
+
+@each $name in item, descr, tools 
+	.selector-#{$name}
+		text-align: center
