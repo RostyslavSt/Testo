@@ -98,3 +98,10 @@ body h1 {
 .selector-tools {
   text-align: center;
 }
+
+.block .twitter {
+  padding: 0;
+  text-align: center;
+  max-height: 12px;
+  max-width: 5px;
+}

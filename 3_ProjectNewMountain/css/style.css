@@ -96,7 +96,11 @@ body {
 	padding-bottom: 71px;
 	text-align: center;
 	font-size: 20px;
+	font-family: 'Carrois Gothic', sans-serif;
+	line-height: 1.3em;
+	color: #45494d;
 }
+
 .container3-content {
 	background-color: #0ebfdd;
 	text-align: center;
@@ -110,6 +114,8 @@ body {
 	text-align: center;
 	display: inline-block;
 	margin: 0 37px;
+	color: #f7fdfe;
+	line-height: 1.2em;
 }
 .people-faces h4 {
 	font-size: 18px;
@@ -129,6 +135,9 @@ body {
 	text-transform: uppercase;
 	color: #f7fdfe;
 }
+.map {
+	margin-bottom: -3px;
+}
 
 footer {
 	width: 100%;
@@ -145,7 +154,7 @@ footer {
 	overflow: hidden;
 }
 .footer-menu {
-	/*padding-top:39px;*/
+	margin-top: 11px;
 	float: left;
 }
 .footer-menu li {

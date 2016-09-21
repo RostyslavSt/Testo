@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+}
+
+body h1 {
+  font-size: 30px;
+}
+
+.tools {
+  text-align: left;
+}
+
+.tools-description {
+  text-align: center;
+}
+
+.tools-item {
+  color: red;
+}
+
+.tools div, .tools p {
+  background-color: green;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selector {
+  color: #567854;
+  font-family: "robotoregular", sans-serif;
+}
+
+.btm_1, .btn_2, .btn_3 {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  font-family: "robotoregular", sans-serif;
+}
+
+.btm_1 {
+  background-color: red;
+}
+
+.btn_2 {
+  background-color: green;
+}
+
+.btn_3 {
+  background-color: green;
+}
+
+.item-1 {
+  background-color: #FFF;
+}
+
+.item-2 {
+  background-color: #FFF;
+}
+
+.item-3 {
+  background-color: #FFF;
+}
+
+.item-4 {
+  background-color: #FFF;
+}
+
+.item-5 {
+  background-color: #FFF;
+}
+
+.item-6 {
+  background-color: #FFF;
+}
+
+.item-7 {
+  background-color: #FFF;
+}
+
+.item-8 {
+  background-color: #FFF;
+}
+
+.item-9 {
+  background-color: #FFF;
+}
+
+.item-10 {
+  background-color: #FFF;
+}
+
+.selector-item {
+  text-align: center;
+}
+
+.selector-descr {
+  text-align: center;
+}
+
+.selector-tools {
+  text-align: center;
+}
+
+.block .twitter {
+  padding: 0;
+  text-align: center;
+  max-height: 12px;
+  max-width: 5px;
+}
