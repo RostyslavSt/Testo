@@ -41,7 +41,7 @@ gulp.task('script', function() {
 	.pipe(gulp.dest('app/js'))
 });
 
-gulp.task('css', function() {
+gulp.task('css',function() {
 	return gulp.src('app/css/libs.css')
 	.pipe(cssNano())
 	.pipe(cssRename({suffix: '.min'}))
@@ -92,3 +92,7 @@ gulp.task('mywatch', ['browser'], function () {
 });
 
 gulp.task('default', ['mywatch']);
+
+gulp.task('hello', function() {
+	console.log('hello,world');
+});

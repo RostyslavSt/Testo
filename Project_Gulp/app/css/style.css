@@ -105,3 +105,8 @@ body h1 {
   max-height: 12px;
   max-width: 5px;
 }
+
+.block .face {
+  display: inline-block;
+  display: -moz-inline-stack;
+}
