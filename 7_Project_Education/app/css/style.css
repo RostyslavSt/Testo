@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  min-width: 320px;
+  font-family: "RobotoRegular", sans-serif;
+  color: #333333;
+}
+
+.phone-number .wrapper .active {
+  text-decoration: underline;
+}
+
+.top-header {
+  padding-top: 20px;
+}
+
+.logo a {
+  font-size: 40px;
+  color: #fff;
+  font-family: .logo a bold;
+}
+
+.phone-number {
+  text-align: right;
+  color: #fff;
+}
+
+.phone-number .tab {
+  text-transform: uppercase;
+  font-style: "RobotoRegular", sans-serif;
+}
+
+.phone-number .tab_content {
+  font-size: 40px;
+}
+
+header {
+  background-image: url("../img/headerBG.jpg");
+  min-height: 640px;
+  background-size: cover;
+  background-position: top center;
+}
+
+.discounts .tabs {
+  font-size: 0;
+}
+
+.discounts .tab {
+  color: #000;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 7px 8px;
+}
+
+.discounts .tab.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.discounts .tab_content {
+  max-width: 635px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.info-bar {
+  background: #c7d9ee;
+  background: -webkit-linear-gradient(top, #c7d9ee 0%, #e7eef7 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c7d9ee), to(#e7eef7));
+  background: linear-gradient(to bottom, #c7d9ee 0%, #e7eef7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7d9ee', endColorstr='#e7eef7',GradientType=0 );
+}
+
+.slider {
+  text-align: center;
+  background-image: url("../img/slider_BG.png");
+  min-height: 641px;
+  color: #fff;
+  background-size: cover;
+  background-position: top center;
+}
+
+.feedback {
+  font-family: "CleanvertisingLight", sans-serif;
+  font-size: 50px;
+}

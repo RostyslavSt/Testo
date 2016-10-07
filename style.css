@@ -88,10 +88,11 @@ html {
 /*-----HEADER------>*/
 
 
+/*<----CONTENT-----*/
+
 
 
 /*---<css for "INDEX" page--*/
-
 .content {
 	background-color: #ecf0f1;
 }
@@ -152,75 +153,20 @@ html {
 }
 
 .content-logo {
-	display: flex;
+	text-align: center;
 	padding: 44px 0 79px;
-	justify-content: space-around;
 }
 .content-logo ul {
-	display: flex;
 	list-style: none;
-	justify-content: space-around;
-	
-	/*margin: 0;*/
-}
-
-
-/*.content-logo li:first-child {
-	padding-left: 20px;
-}*/
-/*---css for "INDEX" page>--*/
-
-
-
-/*<----FOOTER-----*/
-
-.footer-help-block{
-	height: 88px;
-}
-.footer {
-	position: relative;
-	margin: -88px auto 0;
-	width: 940px;
-	height: 88px;
-	background-color: #444444;
-}
-.block-soc-network {
-	float: left;
-	line-height: 88px;
-}
-.block-soc-network ul {
-	list-style: none;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 60px;
 	margin: 0;
 }
-.block-soc-network a {
-	text-decoration: none;
-	color: #b1b1b1;
-	font-size: 8.64px;
-	font-family: "LatoLight", sans-serif;
-
-}
-.block-soc-network li {
-	padding-right: 13px;
+.content-logo li {
 	display: inline-block;
+	padding: 0 35px 0;
+	vertical-align: top;
 }
-.footer .soc {
-	color: #e4e4e4;
-	font-size: 16px;
-	padding-right: 13px;
+.content-logo li:first-child {
+	padding-left: 20px;
 }
+/*---css for "INDEX" page>--*/
 
-.block-copyright {
-	font-size: 12px;
-	color: #bdbdbd;
-	float: right;
-	line-height: 88px;
-	font-family: "LatoLight";
-	padding-right: 59px;
-}
-.block-soc-network i:first-child {
-	margin-top: -2px;
-}
-/*----FOOTER----->*/
