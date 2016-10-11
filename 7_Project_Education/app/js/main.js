@@ -20,6 +20,22 @@ $('document').ready(function() {
 		$(".ph-num-quest .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 	
+	// * location on the map *
+	// $(".map-location .tab_item").not(":first").hide();
+	// $(".map-location .wrapper .tab").click(function() {
+	// 	$(".map-location .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+	// 	$(".map-location .tab_item").hide().eq($(this).index()).fadeIn()
+	// }).eq(0).addClass("active");
+
+	// * location on the map *
+	$(".found-us .tab_item").not(":first").hide();
+	$(".map-location .wrapper .tab").click(function() {
+		$(".map-location .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".found-us .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
+
+
+
 	$(".carusel").owlCarousel({
 	 	items : 1,
 	 	navigation : true,

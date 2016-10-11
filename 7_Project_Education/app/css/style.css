@@ -302,6 +302,34 @@ figure .people-name {
   margin-bottom: 85px;
 }
 
+.found-us p {
+  font-family: "CleanvertisingLight", sans-serif;
+  color: #000;
+  font-size: 50px;
+  line-height: 1em;
+  text-align: right;
+  margin: 35px 0 35px;
+}
+
+.found-us .cities {
+  background-color: #9b1818;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 5px solid #9b1818;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 35px;
+}
+
+.found-us .wrapper .active {
+  background-color: #FFF;
+  color: #9b1818;
+}
+
 .ph-num-quest {
   color: #9b1818;
   font-family: "RobotoRegular", sans-serif;
