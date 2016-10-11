@@ -23,7 +23,7 @@ gulp.task('sass', function() {
 
 });
 
-gulp.task('browser',['css', 'script'], function() {
+gulp.task('browser',['css-libs', 'script'], function() {
 	 browserSync.init({
         server: {
             baseDir: "app"
@@ -41,7 +41,7 @@ gulp.task('script', function() {
 	.pipe(gulp.dest('app/js'))
 });
 
-gulp.task('css',function() {
+gulp.task('css-libs', ['sass'], function() {
 	return gulp.src('app/css/libs.css')
 	.pipe(cssNano())
 	.pipe(cssRename({suffix: '.min'}))
@@ -84,12 +84,15 @@ gulp.task('del', function() {
 	return del.sync('dist')
 });
 
-gulp.task('mywatch', ['browser'], function () {
+gulp.task('mywatch', ['browser'], function () { 
 		gulp.watch('app/sass/**/*.sass', ['sass'])
 		gulp.watch('app/css/**/*.css', browserSync.reload)
 		gulp.watch('app/*.html', browserSync.reload)
 		gulp.watch('app/js/**/*.js', browserSync.reload)
 });
+
+// , 'css-libs', 'script' - maybe it will necessary add to
+ // gulp.task('mywatch', ['browser', 'css-libs', 'script']
 
 gulp.task('default', ['mywatch']);
 
