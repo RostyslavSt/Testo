@@ -1,0 +1,153 @@
+@import "reset";
+$segoe: 'SegoeWPN', sans-serif;
+
+body {
+	background-color: #fff;
+	color: #6c6c6c;
+	font-family: $segoe;
+}
+
+// * -- HEADER --  *
+header {
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-height: 89px;
+	padding: 0 27px;
+	& img {
+		padding-top: 22px;
+	}
+}
+
+.logo {
+	float: left;
+}
+.nav-menu {
+	float: right;
+	padding-top: 45px;
+	& li {
+		display: inline-block;
+		margin-right: 30px;
+		padding: 0 2px 21px 2px;
+		border-bottom: 3px solid transparent;
+		transition: all 1s;
+		& a {
+			text-decoration: none;
+			font-size: 20.35px;
+			color: #6c6c6c;
+		}
+	}	
+}
+.nav-menu li:last-child {
+	margin-right: 0;
+}
+
+.nav-menu li:hover {
+	border-bottom: 3px solid #5094f2;
+}
+
+// -- * SLIDER -- *
+.slider {
+	position: relative;
+	background-image: url('../img/BG_Slider.png');
+	background-size: cover;
+	background-position: top center;
+	.saw {
+		// position: absolute;
+		left: 0;
+		height: 8px;
+		background-image: url('../img/BG_slider_bottom_saw.png');
+	}
+}
+
+.item-content  {
+	max-width: 1024px;
+	overflow: hidden;
+	margin: 0 auto;
+	color: #fff;
+	.iphone-img {
+		float: left;
+		margin: 38px 98px 20px 46px;
+	}
+	.item-description {
+		padding: 152px 0 0;
+		float: left;
+		h3 {
+			font-size: 44px;
+			margin-bottom: 15px
+		}
+		p {
+			font-size: 20.35px;
+			margin-bottom: 15px
+		}
+		.button-img {
+			margin: 31px 0 0 10px;
+		}
+	}
+}
+// -- * CONTENT -- *
+.content {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.content-icons {
+	margin-bottom: 93px;
+	figure {
+		text-align: center;
+		display: inline-block;
+		max-width: 254px;
+		img {
+			margin-bottom: 27px;
+		}
+		h4 {
+			font-size: 20.35px;
+			color: #5094f2;
+			margin-bottom: 8px;
+		}
+		p {
+			font-size: 14.35px;
+			line-height: 1.15em;
+		}
+	}
+}
+
+// -- * BASKET -- *
+.basket {
+	overflow: hidden;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 49px;
+	.shopping-cart {
+		float: left;
+		text-align: center;
+		h3 {
+			font-size: 42.35px;
+			margin-bottom: 33px;
+		}
+	}
+	.basket-text {
+		float: left;
+		margin-left: 1px;
+		h4 {
+			font-size: 26.35px;
+		}
+		p {
+			font-size: 15.35px;
+		}
+	}
+}
+.line {
+	border: 1px solid #e5e5e5;
+	margin-bottom: 29px;
+}
+
+// -- * FOOTER -- *
+footer {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	p {
+		text-align: center;
+		font-size: 15.35px;
+	}
+}
