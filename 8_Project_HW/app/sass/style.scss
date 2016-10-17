@@ -52,6 +52,7 @@ header {
 	background-image: url('../img/BG_Slider.png');
 	background-size: cover;
 	background-position: top center;
+	margin-bottom: 63px;
 	.saw {
 		// position: absolute;
 		left: 0;
@@ -127,12 +128,15 @@ header {
 	}
 	.basket-text {
 		float: left;
-		margin-left: 1px;
+		margin: 53px 0px 0 80px;
+		max-width: 470px;
 		h4 {
 			font-size: 26.35px;
+			margin-bottom: 20px;
 		}
 		p {
 			font-size: 15.35px;
+			line-height: 36px;
 		}
 	}
 }

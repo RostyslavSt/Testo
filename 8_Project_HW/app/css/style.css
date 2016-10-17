@@ -107,6 +107,7 @@ header img {
   background-image: url("../img/BG_Slider.png");
   background-size: cover;
   background-position: top center;
+  margin-bottom: 63px;
 }
 
 .slider .saw {
@@ -195,15 +196,18 @@ header img {
 
 .basket .basket-text {
   float: left;
-  margin-left: 1px;
+  margin: 53px 0px 0 80px;
+  max-width: 470px;
 }
 
 .basket .basket-text h4 {
   font-size: 26.35px;
+  margin-bottom: 20px;
 }
 
 .basket .basket-text p {
   font-size: 15.35px;
+  line-height: 36px;
 }
 
 .line {
