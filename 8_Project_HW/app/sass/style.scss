@@ -7,9 +7,9 @@ body {
 	font-family: $segoe;
 }
 
-img {
-	width: 100%;
-}
+// img {
+// 	width: 100%;
+// }
 
 // * -- HEADER --  *
 header {
@@ -217,26 +217,82 @@ footer {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.item-content  {
+	.slider {
+		margin-bottom: 25px;
+	}
+
+	.item {
 		margin: 0 auto;
-		color: #fff;
-		.iphone-img {
-			float: left;
+		text-align: center;
+		.item-content  {
 			margin: 0 auto;
+			color: #fff;
+			.iphone-img {
+				float: none;
+				margin: 0 auto;
+			}
+			.item-description {
+				padding: 10px 0 0;
+				float: none;
+				h3 {
+					font-size: 20px;
+					margin-bottom: 10px
+				}
+				p {
+					font-size: 15px;
+					margin-bottom: 7px
+				}
+				.button-img {
+					margin: 10px 0 0 0px;
+				}
+			}
 		}
-		.item-description {
-			padding: 10px 0 0;
-			float: left;
+	}
+	.content-icons {
+		margin-bottom: 10px;
+		figure {
+			margin: 10px 0 10px 0px;
+			img {
+				margin-bottom: 10px;
+			}
+			.content-image {
+				float: none;
+			}
+			figcaption {
+				text-align: center;
+				padding: 9px 12px 0 12px;
+				h4 {
+					font-size: 25px;
+					// margin-bottom: 8px;
+				}
+				p {
+					font-size: 19.35px;
+				}
+			}
+		}
+	}
+	.basket {
+		
+		margin: 0 auto;
+		padding-bottom: 20px;
+		.shopping-cart {
+			float: none;
+			text-align: center;
 			h3 {
 				font-size: 30px;
-				margin-bottom: 10px
+				margin-bottom: 15px;
+			}
+		}
+		.basket-text {
+			float:none;
+			margin: 20px 10px 0 10px;
+			h4 {
+				font-size: 12px;
+				margin-bottom: 15px;
 			}
 			p {
-				font-size: 15px;
-				margin-bottom: 7px
-			}
-			.button-img {
-				margin: 10px 0 0 10px;
+				font-size: 15.35px;
+				line-height: 36px;
 			}
 		}
 	}

@@ -58,10 +58,6 @@ body {
   font-family: "SegoeWPN", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
 header {
   overflow: hidden;
   margin: 0 auto;
@@ -281,27 +277,80 @@ footer p {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .item-content {
+  .slider {
+    margin-bottom: 25px;
+  }
+  .item {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .item .item-content {
     margin: 0 auto;
     color: #fff;
   }
-  .item-content .iphone-img {
-    float: left;
+  .item .item-content .iphone-img {
+    float: none;
     margin: 0 auto;
   }
-  .item-content .item-description {
+  .item .item-content .item-description {
     padding: 10px 0 0;
-    float: left;
+    float: none;
   }
-  .item-content .item-description h3 {
-    font-size: 30px;
+  .item .item-content .item-description h3 {
+    font-size: 20px;
     margin-bottom: 10px;
   }
-  .item-content .item-description p {
+  .item .item-content .item-description p {
     font-size: 15px;
     margin-bottom: 7px;
   }
-  .item-content .item-description .button-img {
-    margin: 10px 0 0 10px;
+  .item .item-content .item-description .button-img {
+    margin: 10px 0 0 0px;
+  }
+  .content-icons {
+    margin-bottom: 10px;
+  }
+  .content-icons figure {
+    margin: 10px 0 10px 0px;
+  }
+  .content-icons figure img {
+    margin-bottom: 10px;
+  }
+  .content-icons figure .content-image {
+    float: none;
+  }
+  .content-icons figure figcaption {
+    text-align: center;
+    padding: 9px 12px 0 12px;
+  }
+  .content-icons figure figcaption h4 {
+    font-size: 25px;
+  }
+  .content-icons figure figcaption p {
+    font-size: 19.35px;
+  }
+  .basket {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .basket .shopping-cart {
+    float: none;
+    text-align: center;
+  }
+  .basket .shopping-cart h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .basket .basket-text {
+    float: none;
+    margin: 20px 10px 0 10px;
+  }
+  .basket .basket-text h4 {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .basket .basket-text p {
+    font-size: 15.35px;
+    line-height: 36px;
   }
 }
