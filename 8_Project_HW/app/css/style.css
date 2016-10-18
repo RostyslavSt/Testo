@@ -265,13 +265,30 @@ footer p {
     border: 1px solid #e5e5e5;
     display: block;
   }
-  .shopping-cart {
-    margin: 0 auto;
-    float: none;
+  .basket {
+    padding-bottom: 20px;
   }
-  .shopping-cart h3 {
+  .basket .shopping-cart {
+    float: none;
+    text-align: center;
+  }
+  .basket .shopping-cart h3 {
     font-size: 42.35px;
     margin-bottom: 33px;
+  }
+  .basket .basket-text {
+    float: left;
+    margin: 40px 45px 0 45px;
+    max-width: 100%;
+  }
+  .basket .basket-text h4 {
+    font-size: 26.35px;
+    margin-bottom: 20px;
+  }
+  .basket .basket-text p {
+    text-align: justify;
+    font-size: 15.35px;
+    line-height: 36px;
   }
 }
 
@@ -330,12 +347,10 @@ footer p {
     font-size: 19.35px;
   }
   .basket {
-    margin: 0 auto;
     padding-bottom: 20px;
   }
   .basket .shopping-cart {
     float: none;
-    text-align: center;
   }
   .basket .shopping-cart h3 {
     font-size: 30px;
@@ -343,13 +358,14 @@ footer p {
   }
   .basket .basket-text {
     float: none;
-    margin: 20px 10px 0 10px;
+    margin: 20px 15px 0 15px;
   }
   .basket .basket-text h4 {
-    font-size: 12px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
   .basket .basket-text p {
+    text-align: justify;
     font-size: 15.35px;
     line-height: 36px;
   }
