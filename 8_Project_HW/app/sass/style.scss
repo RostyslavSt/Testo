@@ -214,3 +214,30 @@ footer {
 @media only screen and (max-width: 790px){
 
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.item-content  {
+		margin: 0 auto;
+		color: #fff;
+		.iphone-img {
+			float: left;
+			margin: 0 auto;
+		}
+		.item-description {
+			padding: 10px 0 0;
+			float: left;
+			h3 {
+				font-size: 30px;
+				margin-bottom: 10px
+			}
+			p {
+				font-size: 15px;
+				margin-bottom: 7px
+			}
+			.button-img {
+				margin: 10px 0 0 10px;
+			}
+		}
+	}
+}

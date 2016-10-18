@@ -278,3 +278,30 @@ footer p {
     margin-bottom: 33px;
   }
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .item-content {
+    margin: 0 auto;
+    color: #fff;
+  }
+  .item-content .iphone-img {
+    float: left;
+    margin: 0 auto;
+  }
+  .item-content .item-description {
+    padding: 10px 0 0;
+    float: left;
+  }
+  .item-content .item-description h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .item-content .item-description p {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  .item-content .item-description .button-img {
+    margin: 10px 0 0 10px;
+  }
+}
