@@ -58,6 +58,10 @@ body {
   font-family: "SegoeWPN", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 header {
   overflow: hidden;
   margin: 0 auto;
@@ -177,6 +181,11 @@ header img {
   line-height: 1.15em;
 }
 
+.content-icons .content-line {
+  border: 1px solid #e5e5e5;
+  display: none;
+}
+
 .basket {
   overflow: hidden;
   max-width: 1024px;
@@ -224,4 +233,48 @@ footer {
 footer p {
   text-align: center;
   font-size: 15.35px;
+}
+
+@media only screen and (max-width: 790px) {
+  .nav-menu {
+    display: none;
+  }
+  .content-icons {
+    margin-bottom: 21px;
+  }
+  .content-icons figure {
+    margin: 21px 0 21px 42px;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .content-icons figure img {
+    margin: 0 20px 0 0;
+  }
+  .content-icons figure .content-image {
+    float: left;
+  }
+  .content-icons figure figcaption {
+    text-align: left;
+    padding: 35px 70px 0 22px;
+  }
+  .content-icons figure figcaption h4 {
+    font-size: 34.13px;
+    margin-bottom: 8px;
+  }
+  .content-icons figure figcaption p {
+    font-size: 19.35px;
+  }
+  .content-icons .content-line {
+    border: 1px solid #e5e5e5;
+    display: block;
+  }
+  .shopping-cart {
+    margin: 0 auto;
+    float: none;
+  }
+  .shopping-cart h3 {
+    font-size: 42.35px;
+    margin-bottom: 33px;
+  }
 }

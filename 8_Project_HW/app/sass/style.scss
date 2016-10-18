@@ -7,6 +7,10 @@ body {
 	font-family: $segoe;
 }
 
+img {
+	width: 100%;
+}
+
 // * -- HEADER --  *
 header {
 	overflow: hidden;
@@ -110,6 +114,10 @@ header {
 			line-height: 1.15em;
 		}
 	}
+	.content-line {
+		border: 1px solid #e5e5e5;
+		display: none;
+	}
 }
 
 // -- * BASKET -- *
@@ -154,4 +162,55 @@ footer {
 		text-align: center;
 		font-size: 15.35px;
 	}
+}
+
+@media only screen and (max-width: 790px){
+	.nav-menu {
+		display: none;
+	}
+	.content-icons {
+		margin-bottom: 21px;
+		figure {
+			margin: 21px 0 21px 42px;
+			display: block;
+			max-width: 100%;
+			overflow: hidden;
+			img {
+				margin: 0 20px 0 0;
+			}
+			.content-image {
+				float: left;
+			}
+			figcaption {
+				// float: right;
+				text-align: left;
+				padding: 35px 70px 0 22px;
+
+				h4 {
+					font-size: 34.13px;
+					margin-bottom: 8px;
+				}
+				p {
+					font-size: 19.35px;
+				}
+			}
+
+		}
+		.content-line {
+			border: 1px solid #e5e5e5;
+			display: block;
+		}
+	}
+	.shopping-cart {
+		margin: 0 auto;
+		float: none;
+		h3 {
+			font-size: 42.35px;
+			margin-bottom: 33px;
+		}
+	}
+}
+
+@media only screen and (max-width: 790px){
+
 }
