@@ -28,6 +28,7 @@ header {
 }
 .mob-menu {
 	display: none;
+	// float: right;
 }
 .nav-menu {
 	float: right;
@@ -54,8 +55,6 @@ header {
 }
 .burger {
 	display: none;
-	float: right;
-	cursor: pointer;
 	
 }
 
@@ -181,11 +180,9 @@ footer {
 		display: none;
 	}
 	.nav-menu {
-		float: right;
-		padding-top: 45px;
-
 		& li {
 			display: block;
+			margin-right: 0px;
 			padding: 0 2px 21px 2px;
 			border-bottom: 3px solid transparent;
 			transition: all 1s;
@@ -193,6 +190,8 @@ footer {
 	}
 	.burger {
 		display: block;
+		float: right;
+		cursor: pointer;
 	}
 
 	.content-icons {

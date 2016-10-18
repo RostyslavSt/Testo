@@ -108,8 +108,6 @@ header img {
 
 .burger {
   display: none;
-  float: right;
-  cursor: pointer;
 }
 
 .slider {
@@ -246,12 +244,9 @@ footer p {
   .nav-menu {
     display: none;
   }
-  .nav-menu {
-    float: right;
-    padding-top: 45px;
-  }
   .nav-menu li {
     display: block;
+    margin-right: 0px;
     padding: 0 2px 21px 2px;
     border-bottom: 3px solid transparent;
     -webkit-transition: all 1s;
@@ -259,6 +254,8 @@ footer p {
   }
   .burger {
     display: block;
+    float: right;
+    cursor: pointer;
   }
   .content-icons {
     margin-bottom: 21px;
