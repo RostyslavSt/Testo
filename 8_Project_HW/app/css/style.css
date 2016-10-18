@@ -74,6 +74,10 @@ header img {
   float: left;
 }
 
+.mob-menu {
+  display: none;
+}
+
 .nav-menu {
   float: right;
   padding-top: 45px;
@@ -100,6 +104,12 @@ header img {
 
 .nav-menu li:hover {
   border-bottom: 3px solid #5094f2;
+}
+
+.burger {
+  display: none;
+  float: right;
+  cursor: pointer;
 }
 
 .slider {
@@ -159,7 +169,7 @@ header img {
 .content-icons figure {
   text-align: center;
   display: inline-block;
-  max-width: 254px;
+  max-width: 33%;
 }
 
 .content-icons figure img {
@@ -175,6 +185,7 @@ header img {
 .content-icons figure p {
   font-size: 14.35px;
   line-height: 1.15em;
+  padding: 0 38px;
 }
 
 .content-icons .content-line {
@@ -231,9 +242,23 @@ footer p {
   font-size: 15.35px;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 760px) {
   .nav-menu {
     display: none;
+  }
+  .nav-menu {
+    float: right;
+    padding-top: 45px;
+  }
+  .nav-menu li {
+    display: block;
+    padding: 0 2px 21px 2px;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .burger {
+    display: block;
   }
   .content-icons {
     margin-bottom: 21px;
@@ -260,6 +285,7 @@ footer p {
   }
   .content-icons figure figcaption p {
     font-size: 19.35px;
+    padding: 0;
   }
   .content-icons .content-line {
     border: 1px solid #e5e5e5;
