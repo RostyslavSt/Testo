@@ -52,6 +52,15 @@ table {
   border-spacing: 0;
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 body {
   background-color: #fff;
   color: #6c6c6c;
@@ -59,19 +68,26 @@ body {
 }
 
 header {
-  overflow: hidden;
   margin: 0 auto;
   max-width: 1024px;
   min-height: 89px;
   padding: 0 27px;
+  position: relative;
 }
 
 header img {
-  padding-top: 22px;
+  margin-top: 22px;
 }
 
 .logo {
+  display: block;
   float: left;
+  width: 178px;
+  height: 44px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 23px;
 }
 
 .mob-menu {
@@ -126,7 +142,6 @@ header img {
 
 .item-content {
   max-width: 1024px;
-  overflow: hidden;
   margin: 0 auto;
   color: #fff;
 }
@@ -192,7 +207,6 @@ header img {
 }
 
 .basket {
-  overflow: hidden;
   max-width: 1024px;
   margin: 0 auto;
   padding-bottom: 49px;
@@ -243,6 +257,12 @@ footer p {
 @media only screen and (max-width: 760px) {
   .nav-menu {
     display: none;
+    float: none;
+    position: absolute;
+    top: 100%;
+    padding-top: 0;
+    background-color: rgba(80, 148, 242, 0.8);
+    z-index: 1;
   }
   .nav-menu li {
     display: block;
@@ -251,6 +271,9 @@ footer p {
     border-bottom: 3px solid transparent;
     -webkit-transition: all 1s;
     transition: all 1s;
+  }
+  .nav-menu li a {
+    color: #000;
   }
   .burger {
     display: block;
@@ -264,7 +287,6 @@ footer p {
     margin: 21px 0 21px 42px;
     display: block;
     max-width: 100%;
-    overflow: hidden;
   }
   .content-icons figure img {
     margin: 0 20px 0 0;

@@ -1,6 +1,15 @@
 @import "reset";
 $segoe: 'SegoeWPN', sans-serif;
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 body {
 	background-color: #fff;
 	color: #6c6c6c;
@@ -13,22 +22,28 @@ body {
 
 // * -- HEADER --  *
 header {
-	overflow: hidden;
 	margin: 0 auto;
 	max-width: 1024px;
 	min-height: 89px;
 	padding: 0 27px;
+	position: relative;
 	& img {
-		padding-top: 22px;
+		margin-top: 22px;
 	}
 }
 
 .logo {
+	display: block;
 	float: left;
+	width: 178px;
+	height: 44px;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 23px;
 }
 .mob-menu {
 	display: none;
-	// float: right;
 }
 .nav-menu {
 	float: right;
@@ -66,7 +81,6 @@ header {
 	background-position: top center;
 	margin-bottom: 63px;
 	.saw {
-		// position: absolute;
 		left: 0;
 		height: 8px;
 		background-image: url('../img/BG_slider_bottom_saw.png');
@@ -75,7 +89,6 @@ header {
 
 .item-content  {
 	max-width: 1024px;
-	overflow: hidden;
 	margin: 0 auto;
 	color: #fff;
 	.iphone-img {
@@ -131,7 +144,6 @@ header {
 
 // -- * BASKET -- *
 .basket {
-	overflow: hidden;
 	max-width: 1024px;
 	margin: 0 auto;
 	padding-bottom: 49px;
@@ -173,20 +185,29 @@ footer {
 	}
 }
 
-
-
 @media only screen and (max-width: 760px){
+	// .nav-menu {
+	// 	display: none;
+	// }
 	.nav-menu {
 		display: none;
-	}
-	.nav-menu {
+		float: none;
+		position: absolute;
+		top: 100%;
+		padding-top: 0;
+		background-color: rgba(80, 148, 242, 0.8);
+		z-index: 1;
 		& li {
 			display: block;
 			margin-right: 0px;
 			padding: 0 2px 21px 2px;
 			border-bottom: 3px solid transparent;
 			transition: all 1s;
+			& a {
+				color: #000;
+			}
 		}	
+
 	}
 	.burger {
 		display: block;
@@ -200,7 +221,7 @@ footer {
 			margin: 21px 0 21px 42px;
 			display: block;
 			max-width: 100%;
-			overflow: hidden;
+			// overflow: hidden;
 			img {
 				margin: 0 20px 0 0;
 			}
@@ -208,7 +229,6 @@ footer {
 				float: left;
 			}
 			figcaption {
-				// float: right;
 				text-align: left;
 				padding: 35px 70px 0 22px;
 
