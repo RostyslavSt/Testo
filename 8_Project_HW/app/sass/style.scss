@@ -85,15 +85,37 @@ header {
 		height: 8px;
 		background-image: url('../img/BG_slider_bottom_saw.png');
 	}
+	.owl-prev:after {
+		content: "";
+		background-image: url("../img/arow_left.png");
+		width: 25px;
+		height: 63px;
+		position: absolute;
+		top: 45%;
+		left: 20px;
+	}.owl-next:after {
+		content: "";
+		background-image: url("../img/arow_right.png");
+		width: 25px;
+		height: 63px;
+		position: absolute;
+		top: 45%;
+		right: 20px;
+	}
 }
 
 .item-content  {
 	max-width: 1024px;
 	margin: 0 auto;
 	color: #fff;
+
 	.iphone-img {
 		float: left;
 		margin: 38px 98px 20px 46px;
+		img {
+			max-width: 345px;
+			width: 100%;
+		}
 	}
 	.item-description {
 		padding: 152px 0 0;
@@ -154,6 +176,10 @@ header {
 			font-size: 42.35px;
 			margin-bottom: 33px;
 		}
+		img {
+			max-width: 371px;
+			width:100%
+		}
 	}
 	.basket-text {
 		float: left;
@@ -197,6 +223,9 @@ footer {
 		padding-top: 0;
 		background-color: rgba(80, 148, 242, 0.8);
 		z-index: 1;
+		width: 100%;
+		left: 0;
+		text-align: center;
 		& li {
 			display: block;
 			margin-right: 0px;
@@ -207,8 +236,8 @@ footer {
 				color: #000;
 			}
 		}	
-
 	}
+
 	.burger {
 		display: block;
 		float: right;

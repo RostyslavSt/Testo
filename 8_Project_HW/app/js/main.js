@@ -3,7 +3,11 @@ $('document').ready(function() {
 	$(".carusel").owlCarousel({
 		 	items : 1,
 		 	navigation : true,
-		 	navigationText : false
+		 	navigationText : false,
+            itemsDesktop: [1199,1],
+            itemsDesktopSmall: [979,1],
+            itemsTablet: [768,1],
+            itemsMobile: [479,1]
 		 });
 });
 

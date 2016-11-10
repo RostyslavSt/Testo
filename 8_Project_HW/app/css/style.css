@@ -140,6 +140,26 @@ header img {
   background-image: url("../img/BG_slider_bottom_saw.png");
 }
 
+.slider .owl-prev:after {
+  content: "";
+  background-image: url("../img/arow_left.png");
+  width: 25px;
+  height: 63px;
+  position: absolute;
+  top: 45%;
+  left: 20px;
+}
+
+.slider .owl-next:after {
+  content: "";
+  background-image: url("../img/arow_right.png");
+  width: 25px;
+  height: 63px;
+  position: absolute;
+  top: 45%;
+  right: 20px;
+}
+
 .item-content {
   max-width: 1024px;
   margin: 0 auto;
@@ -149,6 +169,11 @@ header img {
 .item-content .iphone-img {
   float: left;
   margin: 38px 98px 20px 46px;
+}
+
+.item-content .iphone-img img {
+  max-width: 345px;
+  width: 100%;
 }
 
 .item-content .item-description {
@@ -222,6 +247,11 @@ header img {
   margin-bottom: 33px;
 }
 
+.basket .shopping-cart img {
+  max-width: 371px;
+  width: 100%;
+}
+
 .basket .basket-text {
   float: left;
   margin: 53px 0px 0 80px;
@@ -263,6 +293,9 @@ footer p {
     padding-top: 0;
     background-color: rgba(80, 148, 242, 0.8);
     z-index: 1;
+    width: 100%;
+    left: 0;
+    text-align: center;
   }
   .nav-menu li {
     display: block;
